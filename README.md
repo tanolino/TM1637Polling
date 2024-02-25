@@ -1,5 +1,5 @@
 # TM1637Polling
-I copied code from https://github.com/avishorp/TM1637 and turned it into a polling lib because the bit banging did not work for my project.
+I copied code from https://github.com/avishorp/TM1637 and turned it into a polling lib because the delayMicroseconds() for every bit did not work for my project.
 
 ## HowTo use
 Well this should behave like the original project but flush() is required to write everything (blocking).
